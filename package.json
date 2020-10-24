@@ -1,0 +1,35 @@
+{
+  "name": "@smyd/app-cart",
+  "version": "1.0.0",
+  "description": "cart animations, buttons and layout",
+  "main": "app-cart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stylemydomain/app-cart.git"
+  },
+  "author": "Ben Forrester",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stylemydomain/app-cart/issues"
+  },
+  "homepage": "https://github.com/stylemydomain/app-cart#readme",
+  "dependencies": {
+    "@polymer/paper-button": "^3.0.1",
+    "@polymer/polymer": "^3.0.0",
+    "@smyd/app-functions": "^1.0.7",
+    "@smyd/app-overlays": "^1.0.6",
+    "@smyd/app-shared": "^1.0.3",
+    "@smyd/braintree-badge": "^1.0.0"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.1.0",
+    "@polymer/test-fixture": "^4.0.2",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "wct-mocha": "^1.0.1"
+  }
+}
