@@ -1,6 +1,6 @@
 {
   "name": "@smyd/app-cart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cart animations, buttons and layout",
   "main": "app-cart.js",
   "scripts": {

@@ -113,7 +113,7 @@ class AppCart extends AppElement {
   }
 
   // pull user data from db
-  __userChanged(user) {
+  async __userChanged(user) {
     if (user) {
       const callback = dbVal => {
         this._credit = dbVal.credit;
@@ -128,7 +128,7 @@ class AppCart extends AppElement {
         console.error(error);
       };
 
-      this._unsubscribe = services.subscribe({
+      this._unsubscribe = await services.subscribe({
         callback,
         coll: `users/${user.uid}/credit`,
         doc:  'asg',
